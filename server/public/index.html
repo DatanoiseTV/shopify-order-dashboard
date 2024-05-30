@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shopify Orders Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.5.0/css/flag-icon.min.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Orders</h1>
+    <div id="spinner" class="spinner"></div>
+    <table id="ordersTable">
+      <thead>
+        <tr>
+          <th>Order Number</th>
+          <th>Product</th>
+          <th>Country</th>
+          <th>Order Date</th>
+          <th>Age</th>
+        </tr>
+      </thead>
+      <tbody>
+        <!-- Orders will be injected here -->
+      </tbody>
+    </table>
+    <div id="countdown"></div>
+  </div>
+  <script src="bundle.js"></script>
+</body>
+</html>
+

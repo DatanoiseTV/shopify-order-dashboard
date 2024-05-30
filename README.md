@@ -17,8 +17,8 @@ This project is a Shopify orders dashboard that displays open orders, including 
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/shopify-orders-dashboard.git
-   cd shopify-orders-dashboard
+   git clone https://github.com/DatanoiseTV/shopify-order-dashboard.git
+   cd shopify-order-dashboard
    ```
 
 2. Install dependencies:
